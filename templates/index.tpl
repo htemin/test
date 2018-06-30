@@ -4,6 +4,7 @@
 
 {include file='header.tpl' page_title={$smarty.const.MY_TITLE}}
 
+
 {* 普通の変数 *}
 <p>{$hello}
 
@@ -28,3 +29,5 @@
   <li>{$animal[i]}
 {/section}
 </ul>
+
+{include file='footer.tpl' page_title={$smarty.const.MY_TITLE}}
